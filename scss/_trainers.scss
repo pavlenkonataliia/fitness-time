@@ -1,0 +1,72 @@
+.ba-trainer-title{	
+	color: #202020;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	// padding: 5px 16px;
+	line-height: center;
+	margin: 0;
+	
+}
+.ba-post-photo{
+	display: block;
+} 
+
+.ba-post-trainer{
+	background: #ffffff;
+	padding: 18px 20px 21px;
+	letter-spacing: -0.1px;
+}
+
+.ba-post-trainer p{
+	color: #afafaf;
+	font-family: Oswald;
+	font-size: 12px;
+	font-weight: 400;
+	// line-height: 24px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 1;
+	letter-spacing: 0.8px;
+	
+}
+
+// .ba-trainers-content{
+// 	position: relative;
+// 	display: block;
+// }
+.ba-trainers-title{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	color: #ffffff;
+
+	@media screen and (min-width: $medium) {
+		font-size: 25px;		
+		margin-bottom: 5px;
+	}
+
+}
+
+.ba-trainers-content{		
+	display: flex;
+	text-align: center;	
+	flex-direction: column;
+	align-items: center;	
+	padding: 0;	
+	letter-spacing: -1.1px;
+	margin-bottom: 63px;	
+
+	&:after{
+		content: '';		
+		height: 1px;
+		width: 45px;				
+		background: #fff;
+		// margin-bottom: 20px;		
+	}
+
+	
+	
+	
+}

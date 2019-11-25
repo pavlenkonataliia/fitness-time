@@ -1,0 +1,50 @@
+
+.ba-posts{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-bottom: 20px;
+}
+.ba-post{
+	margin-bottom: 30px;
+}
+.ba-post p{
+	color: #777777;
+	font-family: "Open Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+.ba-post-title{
+	// display: inline-block;
+	color: #202020;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding: 5px 16px;
+	line-height: center;
+	margin: 0;
+	
+}
+
+.ba-post-icons{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 4px;
+
+}
+
+.ba-about-content p{
+	display: block;
+	text-align: center;
+	font-family: "Droid Serif";
+   font-size: 19px;
+	font-style: italic;
+	color: #a2a2a2;		
+	line-height: 30px;
+	letter-spacing: -0.2px;
+	margin-bottom: 40px;
+}

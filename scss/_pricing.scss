@@ -1,0 +1,111 @@
+.ba-pricing-content{
+	display: flex;
+	text-align: center;	
+	flex-direction: column;
+	align-items: center;	
+	padding: 0;	
+	letter-spacing: -1.1px;
+	margin-bottom: 60px;	
+
+	&:after{
+		content: '';		
+		height: 1px;
+		width: 45px;				
+		background: #fff;
+		// margin-bottom: 20px;		
+	}
+}
+
+.ba-pricing-title{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	color: #ffffff;
+	letter-spacing: -0.9px;
+
+	@media screen and (min-width: $medium) {
+		font-size: 25px;		
+		margin-bottom: 5px;
+	}
+
+}
+
+.ba-pricing-standart{
+	display: flex;
+	background-color: #d14343;
+	max-width: 370px;
+	padding: 29px 0 26px 24px;
+}
+
+.ba-pricing-advanced{
+	display: flex;
+	border: 2px solid #fffff;
+	max-width: 370px;
+	padding: 25px 0 26px 25px;
+}
+
+.ba-standart-price{
+	text-align: center;
+	padding-right: 29px;
+	border-right: 2px solid #e25050;
+}
+
+.ba-advanced-price{
+	text-align: center;
+	padding-right: 28px;
+	border-right: 2px solid #ffffff;;
+}
+
+.ba-row-pricing{
+	p{
+		color: #ffffff;	
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 21px;
+		text-transform: uppercase;
+		padding: 15px 0 0;
+		margin-bottom: 12px;
+	}
+	span{
+		color: #ffffff;
+		font-family: Oswald;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 21px;
+		text-transform: uppercase;
+		padding: 0 0 0 4px;
+		em{
+			font-style: normal;
+			font-size: 33px;
+		}	
+	}
+	
+}
+
+.ba-pricing-cost{
+	display: flex;	
+	align-items: flex-end;
+	// height: 60px;
+	.ba-cents{
+		font-size: 14px;
+		display: block;
+		height: 34px;
+		
+	 }
+}
+
+.ba-pricing-list{
+	list-style-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAf0lEQVQoU4WPwRGCUAxE31YApVCCViJ0oJUoFWgnUgJ2ohWsE+bnj3CQvWSSvMluxB/ZboEnMGoHfAAn4CXbHdBJimGV7YQ+y972G2iAIWHbZ+AKBHSQNAfYA/dyaig1+6OkKWZLxg2c9tWhggVOu2gvkm6/mVdflweQFHFW+gKBvjFQM+6hyQAAAABJRU5ErkJggg==);
+	padding: 8px 0 10px 45px;
+	margin: 0;
+	li{
+		color: #ffffff;
+		font-family: "Open Sans";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 21px;
+	}
+}
+
+ 
+

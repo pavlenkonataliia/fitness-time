@@ -1,0 +1,36 @@
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;	
+	min-height: 37px;
+	line-height: 37px;
+	min-width: 140px;
+	background: $primary-color;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	border: none;
+	padding: 0 26px;
+	position: relative;
+
+	&:hover{
+		background-color: darken($primary-color, 15%);
+		color: #ffffff; 
+	}
+} 
+
+
+textarea {	
+	resize: none;
+}
